@@ -7,10 +7,8 @@ public class Q_2_Full_Time_Employee extends Q_2_Employee{
 		super();
 		this.monthlyRate = mr;
 	}
-	public int ComputePay() {
-		yearToDateEarnings = 
+	public int computePay(int numberOfMonthsWorked){
+		this.yearToDateEarnings = this.monthlyRate * numberOfMonthsWorked;
+		return this.yearToDateEarnings;
 	}
-	
-	
-
 }

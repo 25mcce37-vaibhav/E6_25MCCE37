@@ -1,6 +1,7 @@
 package Q_1_demo;
 
-public class Q_1_cla {
+public class
+Q_1_cla {
 	public static void main(String[] args) {
 		if(args.length==0) {
 			System.out.println("no arguments provided");
